@@ -1,27 +1,23 @@
 import React, { useEffect, useState } from "react";
 import Temperature from "./components/Temperature";
 import AirPoll from "./components/AirPoll";
-import Daysforecast from "./components/Daysforecast";
+
 import Sunset from "./components/Sunset";
 import axios from "axios";
 import Windcompass from "./components/Windcompass";
 
 import Feelslike from "./components/Feelslike";
 import Humidity from "./components/Humidity";
-import Visibility from "./components/Visibility";
-import Pressure from "./components/Pressure";
+
 import Hourlyforcast from "./components/Hourlyforcast";
 import "leaflet/dist/leaflet.css";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+
 import Dropdownn from "./components/Dropdownn";
-import { CodeXml, Github, Heart } from "lucide-react";
-import Precipitation from "./components/Precipitation";
-import { RiGithubFill, RiLinkedinBoxFill } from "@remixicon/react";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
+
 
 const App = () => {
   const [weatherData, setWeatherData] = useState(null);
-  const [city, setCity] = useState("karachi"); // State for the city to search
+  const [city, setCity] = useState("Kolkata"); // State for the city to search
   const [inputCity, setInputCity] = useState(""); // State for the input field
   const [searchedCity, setSearchedCity] = useState("");
   const [temp, setTemp] = useState(null);
@@ -43,7 +39,6 @@ const App = () => {
   const [lon, setLon] = useState(null);
   const [airpoll, setAirpoll] = useState(null);
   const [error, setError] = useState("");
-  const [activeLayer, setActiveLayer] = useState("clouds"); // State for selected layer
   const [precipitation, setPrecipitation] = useState(null);
   const [timezone, setTimezone] = useState(null);
 
@@ -149,7 +144,7 @@ const App = () => {
     wind: "https://tile.openweathermap.org/map/wind/{z}/{x}/{y}.png?appid=ed2a990f001915cca04df710a8dba3ff",
   };
   return (
-    <div className="px-2">
+    <div className="px-2 ">
   {/* Navbar */}
   <div className="flex items-center justify-end mb-6 border-b-[1px] fixed top-0 left-0 right-0 border-[#F4F4F5] dark:border-[#262626] bg-transparent bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 px-4 sm:px-6 py-2 sm:py-3 z-50">
     <input
