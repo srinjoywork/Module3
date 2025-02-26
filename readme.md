@@ -1,3 +1,6 @@
+![Yellow and Orange Rectangles Modern Business Retractable Exhibition Banner](https://github.com/user-attachments/assets/239e9afb-75e6-483d-8df1-1403308d9856)
+
+
 Module 3 - Capsitech
 ====================
 
