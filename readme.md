@@ -23,6 +23,8 @@ This project is a **student registration form** built with **React and Formik**.
 
 -   Provides real-time validation feedback.
 
+### Live link: https://studentformusingformik-m3-sdas.netlify.app/
+
 ### 2\. Weather App (using React)
 
 The **Weather App** is a React-based application that fetches and displays weather information based on user input. It utilizes a weather API to provide real-time weather updates.
@@ -36,6 +38,8 @@ The **Weather App** is a React-based application that fetches and displays weath
 -   Provides a user-friendly interface with responsive design.
 
 -   Implements error handling for invalid locations.
+
+### Live link:https://weatherappcapsitech-m3-sdas.netlify.app/
 
 Installation & Setup
 --------------------
